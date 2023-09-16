@@ -8,11 +8,11 @@ on:
 
 env:
   AWS_REGION: ap-northeast-2
-  ECR_REPOSITORY: admin
+  ECR_REPOSITORY: admin-service
   ECS_SERVICE: AdminService
-  ECS_CLUSTER: AdminCluster
-  ECS_TASK_DEFINITION: AdminTaskDefinition
-  CONTAINER_NAME: admin-container
+  ECS_CLUSTER: KyusungCluster
+  ECS_TASK_DEFINITION: AdminServiceTaskDefinition
+  CONTAINER_NAME: admin-service-container
 
 permissions:
   contents: read
