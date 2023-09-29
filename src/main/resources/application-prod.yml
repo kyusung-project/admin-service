@@ -10,4 +10,4 @@ eureka:
 
 logging:
   file:
-    path: /home/leekyusung/admin-service/logs
+    path: /home/leekyusung/service/admin/logs
